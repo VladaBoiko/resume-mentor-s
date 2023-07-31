@@ -1,107 +1,100 @@
 body {
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
-  background-color: #e5e5e5;
-  padding: 40px;
 }
 
 .wrapper {
+  background: #ffffff;
   display: flex;
   flex-direction: row-reverse;
-  background: #ffffff;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 /* Main content */
 
 .main-content {
-  padding: 88px;
-}
-
-/* About me */
-
-.my-profession {
-  padding-bottom: 180px;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-.project-item {
-  background-color: yellow;
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
 
 /* Sidebar */
 
 .sidebar {
-  width: 370px;
   background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
 }
 
-.my-photo {
-  margin-top: 40px;
-}
-
-.contacts-container,
-.tech-skills-container {
-  margin: 48px 0 0 40px;
-}
-
-.sidebar-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  color: #161d2a;
-  margin-bottom: 8px;
+.sidebar-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
 
 /* Contacts */
-.contacts-type {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+
+.contacts-title {
   color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
   margin-right: 8px;
 }
 
-.contacts-item {
-  margin: 0;
-}
-
-.contacts-number {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #161d2a;
-}
-
-.contacts-email {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+.contacts-link {
   color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
 }
 
-/* Skills */
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+/* Skills container */
+
+.skills-container {
+  margin-bottom: 40px;
+}
+
+.skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
 
 .skills-list {
-  margin: 0;
-  padding: 0 0 0 12px;
+  padding-left: 16px;
 }
 
 .skills-list-item {
-  color: #6d9bf5;
-}
-
-.skills-list-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }

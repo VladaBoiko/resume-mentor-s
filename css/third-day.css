@@ -1,33 +1,19 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #E5E5E5;
-    padding: 40px;
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    background: #ffffff;
-    width: 1200px;
-    margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
 }
-
-/* Main content */
 
 .main-content {
-    padding: 88px;
-}
-
-/* About me */
-
-.my-profession {
-    padding-bottom: 180px;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-.project-item {
-    background-color: yellow;
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
