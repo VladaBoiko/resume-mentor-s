@@ -1,0 +1,21 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+  font-size: 40px;
+}
+.list {
+  list-style: circle;
+}
+.item {
+  border: 1px solid black;
+  margin: 20px;
+}
+.item:hover {
+  background-color: #ada9a9;
+}
+a {
+  display: block;
+  padding: 30px;
+  color: blueviolet;
+}
